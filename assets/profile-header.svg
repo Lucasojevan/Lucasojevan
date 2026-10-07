@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Ojevan</title>
+  <desc id="desc">Engenharia de Software. Desenvolvimento web, back-end e UX/UI.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#142c40"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#93c5fd" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="rounded"><rect width="1200" height="300" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="300" fill="url(#background)"/>
+    <rect x="760" width="440" height="300" fill="url(#grid)"/>
+    <circle cx="1090" cy="35" r="222" fill="none" stroke="#38bdf8" stroke-opacity=".10"/>
+    <circle cx="1090" cy="35" r="174" fill="none" stroke="#2dd4bf" stroke-opacity=".08"/>
+    <rect x="0" y="0" width="7" height="300" fill="url(#accent)"/>
+    <text x="64" y="66" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="3">ENGENHARIA DE SOFTWARE</text>
+    <text x="60" y="156" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="78" font-weight="700" letter-spacing="-2">Lucas Ojevan</text>
+    <rect x="64" y="188" width="60" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="240" fill="#c4d6e7" font-family="Segoe UI,Arial,sans-serif" font-size="28">Web · Back-end · UX/UI</text>
+    <g transform="translate(850 54)">
+      <rect width="278" height="192" rx="16" fill="#0d1722" stroke="#31485c"/>
+      <path d="M0 43H278" stroke="#31485c"/>
+      <circle cx="22" cy="22" r="5" fill="#fb7185"/>
+      <circle cx="40" cy="22" r="5" fill="#fbbf24"/>
+      <circle cx="58" cy="22" r="5" fill="#2dd4bf"/>
+      <path d="M99 78L73 103L99 128M179 78L205 103L179 128" fill="none" stroke="#38bdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M153 69L125 137" stroke="#2dd4bf" stroke-width="7" stroke-linecap="round"/>
+      <rect x="74" y="160" width="63" height="4" rx="2" fill="#2dd4bf" opacity=".55"/>
+      <rect x="145" y="160" width="31" height="4" rx="2" fill="#38bdf8" opacity=".45"/>
+      <rect x="184" y="160" width="20" height="4" rx="2" fill="#64748b"/>
+    </g>
+  </g>
+</svg>
